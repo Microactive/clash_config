@@ -1,1 +1,1 @@
-
+the config for clash

@@ -19,7 +19,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]🚀 中转线路`香港HKT`香港HGC`^((?!广州).)*$`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`[]🚀 广州中转`香港HKT`香港HGC`^((?!广州).)*$`http://www.gstatic.com/generate_204`600
+custom_proxy_group=🚀 故障转移`fallback`[]🚀 中转线路`香港HKT`香港HGC`^((?!广州).)*$`http://www.gstatic.com/generate_204`600
 custom_proxy_group=🚀 中转线路`relay`[]🚀 中转入口`[]🚀 中转出口
 custom_proxy_group=🚀 中转入口`fallback`广州`http://www.gstatic.com/generate_204`600
 custom_proxy_group=🚀 中转出口`fallback`香港HKT`香港HGC`^((?!广州).)*$`http://www.gstatic.com/generate_204`600

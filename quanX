@@ -27,3 +27,5 @@ custom_proxy_group=🍎 苹果服务`select`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 特殊网站`select`[]✈️ 备用机场`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
+
+quanx_rule_base=https://raw.githubusercontent.com/Microactive/clash_config/master/myquanx.conf

@@ -21,16 +21,16 @@ surge_ruleset=⛔️ 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`珠海`[]🎯 全球直连
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`ipv6`[]🎯 全球直连
 custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`美国`[]✈️ 珠海电信ipv6 → Jikess`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🎵 会员解锁`fallback`上海阿里云`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`台湾`日本`韩国`香港`美国
 custom_proxy_group=📲 电报信息`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=⛔️ 广告拦截`select`[]REJECT`[]DIRECT
-custom_proxy_group=🎯 全球直连`fallback`[]🎯 全球直连`珠海`http://www.gstatic.com/generate_204`10
+custom_proxy_group=🎯 全球直连`fallback`[]🎯 全球直连`ipv6`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=✈️ 珠海电信ipv6 → Jikess`relay`珠海`[]✈️ Jikess
+custom_proxy_group=✈️ 珠海电信ipv6 → Jikess`relay`ipv6`[]✈️ Jikess
 custom_proxy_group=✈️ Jikess`fallback`台湾`日本`韩国`香港`美国`http://www.gstatic.com/generate_204`10
 
 ;世界各国

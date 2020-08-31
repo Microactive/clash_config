@@ -22,7 +22,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`ipv6`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`美国`[]✈️ 珠海电信ipv6 → Jikess`http://www.gstatic.com/generate_204`10
+custom_proxy_group=🚀 故障转移`fallback`[]✈️ 珠海电信ipv6 → Jikess`台湾`日本`韩国`香港`美国`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🎵 会员解锁`fallback`上海阿里云`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`台湾`日本`韩国`香港`美国
 custom_proxy_group=📲 电报信息`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连

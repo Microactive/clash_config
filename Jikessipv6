@@ -21,8 +21,8 @@ surge_ruleset=⛔️ 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`[]✈️ 珠海电信ipv6 → 台湾 01`[]✈️ 珠海电信ipv6 → 日本 01`[]✈️ 珠海电信ipv6 → 日本 02`[]✈️ 珠海电信ipv6 → 韩国 01`[]✈️ 珠海电信ipv6 → 香港 01`[]✈️ 珠海电信ipv6 → 香港 02`[]✈️ 珠海电信ipv6 → 美国 01`[]✈️ 珠海电信ipv6 → 美国 02`ipv6`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`美国`[]✈️ 珠海电信ipv6 → 台湾 01`[]✈️ 珠海电信ipv6 → 日本 01`[]✈️ 珠海电信ipv6 → 日本 02`[]✈️ 珠海电信ipv6 → 韩国 01`[]✈️ 珠海电信ipv6 → 香港 01`[]✈️ 珠海电信ipv6 → 香港 02`[]✈️ 珠海电信ipv6 → 美国 01`[]✈️ 珠海电信ipv6 → 美国 02`http://www.gstatic.com/generate_204`10
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`ipv6`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`美国`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🎵 会员解锁`fallback`上海阿里云`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`台湾`日本`韩国`香港`美国
 custom_proxy_group=📲 电报信息`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
@@ -30,14 +30,14 @@ custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]�
 custom_proxy_group=⛔️ 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🎯 全球直连`fallback`ipv6`[]DIRECT`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=✈️ 珠海电信ipv6 → 台湾 01`relay`ipv6`台湾 01
-custom_proxy_group=✈️ 珠海电信ipv6 → 日本 01`relay`ipv6`日本 01
-custom_proxy_group=✈️ 珠海电信ipv6 → 日本 02`relay`ipv6`日本 02
-custom_proxy_group=✈️ 珠海电信ipv6 → 韩国 01`relay`ipv6`韩国 01
-custom_proxy_group=✈️ 珠海电信ipv6 → 香港 01`relay`ipv6`香港 01
-custom_proxy_group=✈️ 珠海电信ipv6 → 香港 02`relay`ipv6`香港 02
-custom_proxy_group=✈️ 珠海电信ipv6 → 美国 01`relay`ipv6`美国 01
-custom_proxy_group=✈️ 珠海电信ipv6 → 美国 02`relay`ipv6`美国 02
+custom_proxy_group=🇹🇼 珠海电信ipv6 → 台湾 01`relay`ipv6`台湾 01
+custom_proxy_group=🇯🇵 珠海电信ipv6 → 日本 01`relay`ipv6`日本 01
+custom_proxy_group=🇯🇵 珠海电信ipv6 → 日本 02`relay`ipv6`日本 02
+custom_proxy_group=🇰🇷 珠海电信ipv6 → 韩国 01`relay`ipv6`韩国 01
+custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 01`relay`ipv6`香港 01
+custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 02`relay`ipv6`香港 02
+custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 01`relay`ipv6`美国 01
+custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 02`relay`ipv6`美国 02
 
 
 ;世界各国
@@ -81,4 +81,4 @@ emoji=(ZA|南非),🇿🇦
 emoji=(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 emoji=(MO|Macao|澳门|CTM),🇲🇴
 emoji=(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇹🇼
-emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back),🇨🇳
+emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|珠海|宁波|镇江|成都|back),🇨🇳

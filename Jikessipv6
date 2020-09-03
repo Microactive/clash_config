@@ -36,15 +36,15 @@ custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 02`relay`珠海电信ipv
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 01`relay`珠海电信ipv6`美国 01
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 02`relay`珠海电信ipv6`美国 02
 
-custom_proxy_group=🇹🇼 上海阿里ipv4+美国ipv6 → 台湾 01`relay`珠海电信ipv6`台湾 01
-custom_proxy_group=🇯🇵 上海阿里ipv4+美国ipv6 → 日本 01`relay`珠海电信ipv6`日本 01
-custom_proxy_group=🇯🇵 上海阿里ipv4+美国ipv6 → 日本 02`relay`珠海电信ipv6`日本 02
-custom_proxy_group=🇰🇷 上海阿里ipv4+美国ipv6 → 韩国 01`relay`珠海电信ipv6`韩国 01
-custom_proxy_group=🇭🇰 上海阿里ipv4+美国ipv6 → 香港 01`relay`珠海电信ipv6`香港 01
-custom_proxy_group=🇭🇰 上海阿里ipv4+美国ipv6 → 香港 02`relay`珠海电信ipv6`香港 02
-custom_proxy_group=🇺🇸 上海阿里ipv4+美国ipv6 → 美国 01`relay`珠海电信ipv6`美国 01
-custom_proxy_group=🇺🇸 上海阿里ipv4+美国ipv6 → 美国 02`relay`珠海电信ipv6`美国 02
-custom_proxy_group=🇨🇳 上海阿里ipv4+美国ipv6 → 上海 01`relay`珠海电信ipv6`网易云音乐(上海阿里云)
+custom_proxy_group=🇹🇼 上海阿里ipv4+美国ipv6 → 台湾 01`relay`上海阿里ipv4+美国ipv6`台湾 01
+custom_proxy_group=🇯🇵 上海阿里ipv4+美国ipv6 → 日本 01`relay`上海阿里ipv4+美国ipv6`日本 01
+custom_proxy_group=🇯🇵 上海阿里ipv4+美国ipv6 → 日本 02`relay`上海阿里ipv4+美国ipv6`日本 02
+custom_proxy_group=🇰🇷 上海阿里ipv4+美国ipv6 → 韩国 01`relay`上海阿里ipv4+美国ipv6`韩国 01
+custom_proxy_group=🇭🇰 上海阿里ipv4+美国ipv6 → 香港 01`relay`上海阿里ipv4+美国ipv6`香港 01
+custom_proxy_group=🇭🇰 上海阿里ipv4+美国ipv6 → 香港 02`relay`上海阿里ipv4+美国ipv6`香港 02
+custom_proxy_group=🇺🇸 上海阿里ipv4+美国ipv6 → 美国 01`relay`上海阿里ipv4+美国ipv6`美国 01
+custom_proxy_group=🇺🇸 上海阿里ipv4+美国ipv6 → 美国 02`relay`上海阿里ipv4+美国ipv6`美国 02
+custom_proxy_group=🇨🇳 上海阿里ipv4+美国ipv6 → 上海 01`relay`上海阿里ipv4+美国ipv6`网易云音乐(上海阿里云)
 
 
 ;世界各国

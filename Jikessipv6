@@ -28,6 +28,7 @@ custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]�
 custom_proxy_group=🎯 全球直连`fallback`[]DIRECT`珠海电信ipv6`上海阿里云`https://www.baidu.com`10
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 
+;中转
 custom_proxy_group=🇹🇼 珠海电信ipv6 → 台湾 01`relay`珠海电信ipv6`台湾 01
 custom_proxy_group=🇯🇵 珠海电信ipv6 → 日本 01`relay`珠海电信ipv6`日本 01
 custom_proxy_group=🇯🇵 珠海电信ipv6 → 日本 02`relay`珠海电信ipv6`日本 02
@@ -36,15 +37,14 @@ custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 01`relay`珠海电信ipv
 custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 02`relay`珠海电信ipv6`香港 02
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 01`relay`珠海电信ipv6`美国 01
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 02`relay`珠海电信ipv6`美国 02
-
-custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`上海阿里云`台湾 01	
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`上海阿里云`日本 01	
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`上海阿里云`日本 02	
-custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`上海阿里云`韩国 01	
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`上海阿里云`香港 01	
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`香港 02	
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`美国 01	
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`美国 02	
+custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`上海阿里云`台湾 01
+custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`上海阿里云`日本 01
+custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`上海阿里云`日本 02
+custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`上海阿里云`韩国 01
+custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`上海阿里云`香港 01
+custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`香港 02
+custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`美国 01
+custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`美国 02
 
 ;世界各国
 emoji=AC,🇦🇨

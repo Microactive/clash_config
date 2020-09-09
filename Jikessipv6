@@ -1,6 +1,7 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
 ;自定义
+surge_ruleset=🏫 校内网站,https://raw.githubusercontent.com/Microactive/clash_config/master/edu
 surge_ruleset=🎵 会员解锁,https://raw.githubusercontent.com/Microactive/clash_config/master/music163.list
 surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_proxy.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
@@ -19,13 +20,14 @@ surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🇹🇼 上海阿里云 → 台湾 01`[]🇯🇵 上海阿里云 → 日本 01`[]🇯🇵 上海阿里云 → 日本 02`[]🇰🇷 上海阿里云 → 韩国 01`[]🇭🇰 上海阿里云 → 香港 01`[]🇭🇰 上海阿里云 → 香港 02`[]🇺🇸 上海阿里云 → 美国 01`[]🇺🇸 上海阿里云 → 美国 02`珠海电信ipv6`上海阿里云`[]🎯 全球直连
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`美国`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🇹🇼 上海阿里云 → 台湾 01`[]🇯🇵 上海阿里云 → 日本 01`[]🇯🇵 上海阿里云 → 日本 02`[]🇰🇷 上海阿里云 → 韩国 01`[]🇭🇰 上海阿里云 → 香港 01`[]🇭🇰 上海阿里云 → 香港 02`[]🇺🇸 上海阿里云 → 美国 01`[]🇺🇸 上海阿里云 → 美国 02`珠海电信ipv6`隔壁宿舍`[]🇨🇳 上海阿里云`[]🎯 全球直连
 custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`美国 01`美国 02`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🇹🇼 上海阿里云 → 台湾 01`[]🇯🇵 上海阿里云 → 日本 01`[]🇯🇵 上海阿里云 → 日本 02`[]🇰🇷 上海阿里云 → 韩国 01`[]🇭🇰 上海阿里云 → 香港 01`[]🇭🇰 上海阿里云 → 香港 02`[]🇺🇸 上海阿里云 → 美国 01`[]🇺🇸 上海阿里云 → 美国 02`http://www.gstatic.com/generate_204`6
 custom_proxy_group=🎵 会员解锁`fallback`网易云音乐`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
+custom_proxy_group=🏫 校内网站`fallback`隔壁宿舍`[]🎯 全球直连`http://www.gstatic.com/generate_204`20
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`台湾`日本`韩国`香港`美国
 custom_proxy_group=📲 电报信息`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=🎯 全球直连`fallback`[]DIRECT`珠海电信ipv6`上海阿里云`https://www.baidu.com`10
+custom_proxy_group=🎯 全球直连`fallback`[]DIRECT`珠海电信ipv6`[]🇨🇳 上海阿里云`https://www.baidu.com`10
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 
 ;中转
@@ -37,14 +39,15 @@ custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 01`relay`珠海电信ipv
 custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 02`relay`珠海电信ipv6`香港 02
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 01`relay`珠海电信ipv6`美国 01
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 02`relay`珠海电信ipv6`美国 02
-custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`上海阿里云`台湾 01
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`上海阿里云`日本 01
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`上海阿里云`日本 02
-custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`上海阿里云`韩国 01
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`上海阿里云`香港 01
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`香港 02
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`美国 01
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`美国 02
+custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`隔壁宿舍`上海阿里云`台湾 01
+custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`隔壁宿舍`上海阿里云`日本 01
+custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`隔壁宿舍`上海阿里云`日本 02
+custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`隔壁宿舍`上海阿里云`韩国 01
+custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`隔壁宿舍`上海阿里云`香港 01
+custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`隔壁宿舍`上海阿里云`香港 02
+custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`隔壁宿舍`上海阿里云`美国 01
+custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`隔壁宿舍`上海阿里云`美国 02
+custom_proxy_group=🇨🇳 上海阿里云`relay`隔壁宿舍`上海阿里云
 
 ;世界各国
 emoji=AC,🇦🇨
@@ -88,4 +91,3 @@ emoji=(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 emoji=(MO|Macao|澳门|CTM),🇲🇴
 emoji=(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇹🇼
 emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|珠海|宁波|镇江|成都|back),🇨🇳
-

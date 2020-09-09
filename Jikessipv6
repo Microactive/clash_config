@@ -90,4 +90,4 @@ emoji=(ZA|南非),🇿🇦
 emoji=(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 emoji=(MO|Macao|澳门|CTM),🇲🇴
 emoji=(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇹🇼
-emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|珠海|宁波|镇江|成都|back),🇨🇳
+emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|珠海|宁波|宿舍|镇江|成都|back),🇨🇳

@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,pianyuan.la
+DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,zimuku.la   
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,appen.com
@@ -14,4 +15,3 @@ PROCESS-NAME,QQ.exe
 PROCESS-NAME,WeChat.exe
 DOMAIN-KEYWORD,duboku
 DOMAIN-KEYWORD,wanmeikk
-DOMAIN-SUFFIX,test-ipv6.com

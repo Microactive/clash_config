@@ -1,0 +1,12 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;自定义
+
+
+surge_ruleset=🎯 全球直连,[]GEOIP,CN
+surge_ruleset=👨🏻‍💻 节点选择,[]FINAL
+
+;策略组 
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾 01`日本`韩国`香港`美国`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`日本`台湾`韩国`香港`美国`http://www.gstatic.com/generate_204`8
+custom_proxy_group=🎯 全球直连`select`[]DIRECT

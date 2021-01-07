@@ -13,6 +13,7 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/download.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/Microactive/clash_config/master/video.list

@@ -1,6 +1,7 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
 ;自定义规则
+surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
 surge_ruleset=🎵 会员解锁,https://raw.githubusercontent.com/Microactive/clash_config/master/music163.list
 surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_proxy.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
@@ -12,7 +13,6 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/Microactive/clash_config/master/video.list

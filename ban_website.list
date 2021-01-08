@@ -10,5 +10,5 @@ DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-KEYWORD,scholar
 DOMAIN-SUFFIX,hotbak.net
 DOMAIN-KEYWORD,hotbak
-# DOMAIN-SUFFIX,services.googleapis.cn
-# DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com

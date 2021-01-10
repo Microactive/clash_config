@@ -43,6 +43,13 @@ custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`
 custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`隧道 徐州 → 美国 01
 custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`隧道 徐州 → 美国 02
 
+clash_use_new_field_name=true
+rename_node=1Gbps Netflix HBO TVB@
+rename_node=中国-香港 IEPL Equinix HK8@中港IEPL专线
+rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线
+
+
+
 ;世界各国
 emoji=AC,🇦🇨
 emoji=(AR|阿根廷),🇦🇷

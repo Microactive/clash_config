@@ -3,29 +3,27 @@
 ;自定义规则
 surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
 surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_proxy.list
+surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
-
-
-;acl4SSR规则
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
-surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]✈️ 备用机场`专线`(?=.*中继)(?=.*上海)(?=.*香港)`(?=.*中继)(?=.*山东)(?=.*香港)`(?=.*中继)(?=.*香港)`中继`(?=.*隧道)(?=.*台湾)`(?=.*隧道)(?=.*日本)`隧道`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`(?=.*专线)(?=.*香港)(?=.*6)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*5)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*4)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*3)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*2)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*深圳)`(?=.*专线)(?=.*香港)(?=.*上海)`(?=.*专线)(?=.*新加坡)(?=.*深圳)`(?=.*专线)(?=.*马来西亚)(?=.*深圳)`(?=.*专线)(?=.*美国)(?=.*深圳)`(?=.*专线)(?=.*深圳)`(?=.*香港)(?=.*专线)(?=.*LeaseWeb)`(?=.*香港)(?=.*专线)`(?=.*台湾)(?=.*专线)`(?=.*新加坡)(?=.*专线)`(?=.*专线)(?=.*x)`粤新`粤日`(?=.*中继)(?=.*香港)(?=.*广)`(?=.*中继)(?=.*香港)(?=.*上海)`(?=.*中继)(?=.*香港)`(?=.*隧道)(?=.*日本)`(?=.*隧道)(?=.*台湾)`隧道`http://www.gstatic.com/generate_204`20
-custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*湖北)(?=.*日本)`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*徐州)`隧道`http://www.gstatic.com/generate_204`15
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]✈️ 备用机场`中港IEPL专线`中港IPLC专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`中港IEPL专线`中港IPLC专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`[]✈️ 备用机场`http://www.gstatic.com/generate_204`20
+custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*徐州)`隧道`http://www.gstatic.com/generate_204`15
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
-custom_proxy_group=Ⓜ️ 微软服务`select`[]✈️ 备用机场`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
-custom_proxy_group=🛑 特殊网站`select`[]✈️ 备用机场`[]REJECT`[]DIRECT
+custom_proxy_group=🛑 特殊网站`select`[]✈️ 备用机场`[]👨🏻‍💻 节点选择`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
 
 quanx_rule_base=https://raw.githubusercontent.com/Microactive/clash_config/master/myquanx.conf

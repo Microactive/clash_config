@@ -21,7 +21,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]✈️ 备用机场`中港IEPL专线`中港IPLC专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
 custom_proxy_group=🚀 故障转移`fallback`中港IPLC专线`中港IEPL专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`[]✈️ 备用机场`http://www.gstatic.com/generate_204`20
-custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*湖北)(?=.*日本)`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*徐州)`隧道`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🇹🇼 上海阿里云 → 台湾 01`[]🇯🇵 上海阿里云 → 日本 01`[]🇯🇵 上海阿里云 → 日本 02`[]🇰🇷 上海阿里云 → 韩国 01`[]🇭🇰 上海阿里云 → 香港 01`[]🇭🇰 上海阿里云 → 香港 02`[]🇺🇸 上海阿里云 → 美国 01`[]🇺🇸 上海阿里云 → 美国 02`http://www.gstatic.com/generate_204`30
+custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*湖北)(?=.*日本)`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*徐州)`隧道`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`http://www.gstatic.com/generate_204`30
 custom_proxy_group=🎵 会员解锁`fallback`网易云音乐`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
@@ -36,14 +36,15 @@ custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 01`relay`ipv6`隧道 徐
 custom_proxy_group=🇭🇰 珠海电信ipv6 → 香港 02`relay`ipv6`隧道 徐州 → 香港 02
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 01`relay`ipv6`隧道 徐州 → 美国 01
 custom_proxy_group=🇺🇸 珠海电信ipv6 → 美国 02`relay`ipv6`隧道 徐州 → 美国 02
-custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`上海阿里云`隧道 徐州 → 台湾 01
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`上海阿里云`隧道 湖北 → 日本 01
-custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`上海阿里云`隧道 湖北 → 日本 02
-custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`上海阿里云`隧道 徐州 → 韩国 01
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`上海阿里云`隧道 徐州 → 香港 01
-custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`隧道 徐州 → 香港 02
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`隧道 徐州 → 美国 01
-custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`隧道 徐州 → 美国 02
+
+;custom_proxy_group=🇹🇼 上海阿里云 → 台湾 01`relay`上海阿里云`隧道 徐州 → 台湾 01
+;custom_proxy_group=🇯🇵 上海阿里云 → 日本 01`relay`上海阿里云`隧道 湖北 → 日本 01
+;custom_proxy_group=🇯🇵 上海阿里云 → 日本 02`relay`上海阿里云`隧道 湖北 → 日本 02
+;custom_proxy_group=🇰🇷 上海阿里云 → 韩国 01`relay`上海阿里云`隧道 徐州 → 韩国 01
+;custom_proxy_group=🇭🇰 上海阿里云 → 香港 01`relay`上海阿里云`隧道 徐州 → 香港 01
+;custom_proxy_group=🇭🇰 上海阿里云 → 香港 02`relay`上海阿里云`隧道 徐州 → 香港 02
+;custom_proxy_group=🇺🇸 上海阿里云 → 美国 01`relay`上海阿里云`隧道 徐州 → 美国 01
+;custom_proxy_group=🇺🇸 上海阿里云 → 美国 02`relay`上海阿里云`隧道 徐州 → 美国 02
 
 clash_use_new_field_name=true
 rename_node=1Gbps Netflix HBO TVB@

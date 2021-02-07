@@ -18,8 +18,8 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]✈️ 备用机场`中港IEPL专线`中港IPLC专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*6)`(?=.*中港IPLC专线)(?=.*7)`(?=.*中港IPLC专线)(?=.*9)`(?=.*中港IPLC专线)(?=.*10)`中港IPLC专线`中港IEPL专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`(?=.*隧道)(?=.*日本)`(?=.*隧道)(?=.*徐州)`隧道`http://www.gstatic.com/generate_204`20
-custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*日本)`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*徐州)`隧道`http://www.gstatic.com/generate_204`30
+custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*6)`(?=.*中港IPLC专线)(?=.*7)`(?=.*中港IPLC专线)(?=.*9)`(?=.*中港IPLC专线)(?=.*10)`中港IPLC专线`中港IEPL专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`(?=.*隧道)(?=.*台湾)`(?=.*隧道)(?=.*日本)`隧道`http://www.gstatic.com/generate_204`20
+custom_proxy_group=✈️ 备用机场`fallback`(?=.*隧道)(?=.*徐州)(?=.*台湾)`(?=.*隧道)(?=.*日本)`(?=.*隧道)(?=.*徐州)`隧道`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]✈️ 备用机场`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT

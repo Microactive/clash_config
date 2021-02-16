@@ -19,8 +19,8 @@ surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`AGA`台湾 01`日本`韩国`香港`(?=.*隧道)(?=.*美国)`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 05(Jikess中转)`自建`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`AGA`台湾 01`日本`韩国`香港`(?=.*隧道)(?=.*美国)`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 05(Jikess中转)`自建`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`http://www.gstatic.com/generate_204`10
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`AGA中转`台湾 01`日本`韩国`香港`(?=.*隧道)(?=.*美国)`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 05(Jikess中转)`自建`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`AGA中转`台湾 01`日本`韩国`香港`(?=.*隧道)(?=.*美国)`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 05(Jikess中转)`自建`[]🇹🇼 珠海电信ipv6 → 台湾 01`[]🇯🇵 珠海电信ipv6 → 日本 01`[]🇯🇵 珠海电信ipv6 → 日本 02`[]🇰🇷 珠海电信ipv6 → 韩国 01`[]🇭🇰 珠海电信ipv6 → 香港 01`[]🇭🇰 珠海电信ipv6 → 香港 02`[]🇺🇸 珠海电信ipv6 → 美国 01`[]🇺🇸 珠海电信ipv6 → 美国 02`http://www.gstatic.com/generate_204`10
 custom_proxy_group=🎵 会员解锁`fallback`网易云音乐`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择
 custom_proxy_group=📲 电报信息`select`[]👨🏻‍💻 节点选择

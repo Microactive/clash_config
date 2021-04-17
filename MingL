@@ -19,15 +19,20 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`台湾`日本`韩国`香港`(?=.*隧道)(?=.*美国)`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`台湾`日本`韩国`香港`(?=.*隧道)(?=.*美国)`http://www.gstatic.com/generate_204`20
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`香港`台湾`新加坡`日本`韩国`美国`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 06(Jikess中转 → CDN)`[]🇺🇸 隧道 徐州 → 美国 07(Jikess中转 → CDN)`[]🇺🇸 隧道 徐州 → 美国 08(Jikess中转 → CDN)`自建`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`香港`台湾`新加坡`日本`韩国`美国`[]🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`[]🇺🇸 隧道 徐州 → 美国 06(Jikess中转 → CDN)`[]🇺🇸 隧道 徐州 → 美国 07(Jikess中转 → CDN)`自建`http://www.gstatic.com/generate_204`20
 custom_proxy_group=🎵 会员解锁`fallback`网易云音乐`[]🎯 全球直连`http://www.gstatic.com/generate_204`30
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 
-
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 03(Jikess中转)`relay`Jikess福建`自建直连
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 04(Jikess中转)`relay`Jikess泉州`自建直连
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 05(Jikess中转)`relay`Jikess徐州`自建直连
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 06(Jikess中转 → CDN)`relay`Jikess福建`智能优选
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 07(Jikess中转 → CDN)`relay`Jikess泉州`智能优选
+custom_proxy_group=🇺🇸 隧道 徐州 → 美国 08(Jikess中转 → CDN)`relay`Jikess徐州`智能优选
 
 ;世界各国
 emoji=AC,🇦🇨

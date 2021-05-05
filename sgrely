@@ -20,7 +20,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`[]🇸🇬 福州电信 → 新加坡 01`[]🇸🇬 福州电信 → 新加坡 02`[]🇸🇬 福州电信 → 新加坡 03`自建`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`[]🚀 故障转移`[]🇸🇬 福州电信 → 新加坡 01`[]🇸🇬 福州电信 → 新加坡 02`[]🇸🇬 福州电信 → 新加坡 03`自建`http://www.gstatic.com/generate_204`20
+custom_proxy_group=🚀 故障转移`fallback`[]🇸🇬 福州电信 → 新加坡 01`[]🇸🇬 福州电信 → 新加坡 02`[]🇸🇬 福州电信 → 新加坡 03`自建`http://www.gstatic.com/generate_204`20
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`珠海电信ipv6`上海阿里云

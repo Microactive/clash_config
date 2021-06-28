@@ -18,16 +18,16 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`深圳`[]🇨🇳 珠海 → 华工实验室 ss`[]🇨🇳 珠海 → 华工实验室 socks5`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`深圳`[]🇨🇳 珠海 → 华工实验室 ss`[]🇨🇳 珠海 → 华工实验室 socks5`http://www.gstatic.com/generate_204`20
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`深圳`[]🏫 珠海 → 华工实验室 ss`[]🏫 珠海 → 华工实验室 socks5`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`深圳`[]🏫 珠海 → 华工实验室 ss`[]🏫 珠海 → 华工实验室 socks5`http://www.gstatic.com/generate_204`20
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 
 ;中转
-custom_proxy_group=🇨🇳 珠海 → 华工实验室 ss`relay`珠海`华工实验室ss
-custom_proxy_group=🇨🇳 珠海 → 华工实验室 socks5`relay`珠海`华工实验室socks5
+custom_proxy_group=🏫 珠海 → 华工实验室 ss`relay`珠海`华工实验室ss
+custom_proxy_group=🏫 珠海 → 华工实验室 socks5`relay`珠海`华工实验室socks5
 
 
 ;世界各国
@@ -68,6 +68,7 @@ emoji=(VN|越南),🇻🇳
 emoji=(ZA|南非),🇿🇦
 
 ;中国
+emoji=(实验室|华工),🏫
 emoji=(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
 emoji=(MO|Macao|澳门|CTM),🇲🇴
 emoji=(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇹🇼

@@ -1,6 +1,5 @@
 DOMAIN-KEYWORD,scut
 DOMAIN-KEYWORD,wanfangdata
-
 DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,cnsba.com
 DOMAIN-SUFFIX,erp.einu.cn
@@ -15,6 +14,17 @@ DOMAIN-SUFFIX,chineseall.cn
 DOMAIN-SUFFIX,sciencechina.cn
 DOMAIN-SUFFIX,nature.com
 
+IP-CIDR,116.57.64.0/18,no-resolve
+IP-CIDR,202.38.192.0/18,no-resolve
+IP-CIDR,202.38.192.0/19,no-resolve
+IP-CIDR,202.38.224.0/19,no-resolve
+IP-CIDR,211.66.16.0/20,no-resolve
+IP-CIDR,218.192.160.0/20,no-resolve
+IP-CIDR,222.16.32.0/19,no-resolve
+IP-CIDR,125.217.224.0/21,no-resolve
+IP-CIDR,125.217.232.0/21,no-resolve
+IP-CIDR,125.217.240.0/20,no-resolve
+IP-CIDR,172.30.155.0/24,no-resolve
 IP-CIDR,202.38.194.0/24,no-resolve        
 IP-CIDR,110.65.0.0/16,no-resolve
 IP-CIDR,202.38.232.0/24,no-resolve

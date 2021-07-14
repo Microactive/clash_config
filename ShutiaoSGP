@@ -19,8 +19,8 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`新加坡`日本`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`新加坡`日本`(?=.*香港)(?=.*SS)`(?=.*台湾)(?=.*SS)`(?=.*新加坡)(?=.*SS)`(?=.*日本)(?=.*SS)`(?=.*美国)(?=.*SS)`http://www.gstatic.com/generate_204`20
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`(?=.*新加坡)(?=.*IEPL)`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`(?=.*新加坡)(?=.*IEPL)`(?=.*香港)(?=.*SS)`(?=.*台湾)(?=.*SS)`(?=.*新加坡)(?=.*SS)`(?=.*日本)(?=.*SS)`(?=.*美国)(?=.*SS)`http://www.gstatic.com/generate_204`20
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
@@ -30,6 +30,10 @@ clash_use_new_field_name=true
 rename_node=1Gbps Netflix HBO TVB@
 rename_node=中国-香港 IEPL Equinix HK2@中港IEPL专线
 rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线
+rename_node=Netflix@
+rename_node=中继@
+
+
 
 
 

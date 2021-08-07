@@ -20,7 +20,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`中港IPLC专线`中港IEPL专线`香港丨专线`台湾丨专线`新加坡丨专线`日本丨专线`美国丨专线`隧道`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*6)`(?=.*中港IPLC专线)(?=.*7)`(?=.*中港IPLC专线)(?=.*9)`(?=.*中港IPLC专线)(?=.*10)`中港IPLC专线`(?=.*香港)(?=.*SS)`(?=.*台湾)(?=.*SS)`(?=.*新加坡)(?=.*SS)`(?=.*日本)(?=.*SS)`(?=.*美国)(?=.*SS)`http://www.gstatic.com/generate_204`20
+custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*1)`(?=.*中港IPLC专线)(?=.*2)`(?=.*中港IPLC专线)(?=.*3)`(?=.*中港IPLC专线)(?=.*4)`(?=.*中港IPLC专线)(?=.*5)`(?=.*中港IPLC专线)(?=.*6)`(?=.*香港)(?=.*SS)`(?=.*台湾)(?=.*SS)`(?=.*新加坡)(?=.*SS)`(?=.*日本)(?=.*SS)`(?=.*美国)(?=.*SS)`http://www.gstatic.com/generate_204`20
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT

@@ -32,6 +32,8 @@ clash_use_new_field_name=true
 rename_node=1Gbps Netflix HBO TVB@
 rename_node=中国-香港 IEPL Equinix HK2@中港IEPL专线
 rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线
+rename_node=Netflix@
+rename_node=中继@
 
 
 

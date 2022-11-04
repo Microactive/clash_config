@@ -30,7 +30,6 @@ custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 
 clash_use_new_field_name=true
-rename_node=Hongkong@
 rename_node=1Gbps Netflix HBO TVB@
 rename_node=中国-香港 IEPL Equinix HK8@中港IEPL专线
 rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线

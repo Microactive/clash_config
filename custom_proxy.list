@@ -1,4 +1,4 @@
 DOMAIN-SUFFIX,payoneer.com
 DOMAIN-SUFFIX,bywave.io
 DOMAIN-KEYWORD,duboku
-IP-CIDR,107.173.82.44/32
+IP-CIDR,107.173.82.44/32,no-resolve

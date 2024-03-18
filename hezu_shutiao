@@ -22,19 +22,20 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
 custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`ByWave`中港IEPL专线`香港`台湾`新加坡`日本`美国`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*06)`(?=.*中港IPLC专线)(?=.*02)`(?=.*中港IPLC专线)(?=.*03)`(?=.*中港IPLC专线)(?=.*04)`(?=.*中港IPLC专线)(?=.*05)`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`60
+custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*02)`(?=.*中港IPLC专线)(?=.*03)`(?=.*中港IPLC专线)(?=.*04)`(?=.*中港IPLC专线)(?=.*05)`(?=.*中港IPLC专线)(?=.*06)`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`60
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=🛑 特殊网站`select`(?=.*新加坡)(?=.*IEPL)`(?=.*K)(?=.*美)`美国`日本`加拿大
+custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 莞港专线->美国`[]🇺🇸 广港专线->美国
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=🇺🇸 莞港专线->美国`relay`(?=.*中港IPLC专线)(?=.*02)`美国1号
+custom_proxy_group=🇺🇸 广港专线->美国`relay`(?=.*CN)(?=.*香港02)`美国1号
 
 clash_use_new_field_name=true
 rename_node=1Gbps Netflix HBO TVB@
 rename_node=中国-香港 IEPL Equinix HK8@中港IEPL专线
 rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线
 rename_node=1Gbps HBO TVB@
-rename_node=中继@
 
 
 

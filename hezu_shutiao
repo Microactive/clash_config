@@ -1,8 +1,7 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
 ;自定义规则
-surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/googleplay.list
-surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/shutiao_spceial
+surge_ruleset=🛑 地区限制,https://raw.githubusercontent.com/Microactive/clash_config/master/googleplay.list
 surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
@@ -26,6 +25,7 @@ custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`ByWav
 custom_proxy_group=🚀 故障转移`fallback`(?=.*中港IPLC专线)(?=.*02)`(?=.*中港IPLC专线)(?=.*03)`(?=.*中港IPLC专线)(?=.*04)`(?=.*中港IPLC专线)(?=.*05)`(?=.*中港IPLC专线)(?=.*06)`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`60
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=🛑 地区限制`select`👨🏻‍💻 节点选择`(?=.*CN)(?=.*香港)`美国
 custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 广港专线->美国01`[]🇺🇸 广港专线->美国02`(?=.*CN)(?=.*香港)
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连

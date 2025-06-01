@@ -1,0 +1,84 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;自定义规则
+surge_ruleset=🛑 地区限制,https://raw.githubusercontent.com/Microactive/clash_config/master/googleplay.list
+surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
+surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_proxy.list
+surge_ruleset=👨🏻‍💻 节点选择,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
+
+
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+surge_ruleset=🎯 全球直连,[]GEOIP,CN
+surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+surge_ruleset=🐟 漏网之鱼,[]FINAL
+
+;策略组 
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`ByWave`中港IEPL专线`香港`台湾`新加坡`日本`美国`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`🇭🇰 香港01`🇭🇰 香港02`🇭🇰 香港03`🇭🇰 香港04`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`60
+custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=🛑 地区限制`select`[]👨🏻‍💻 节点选择`(?=.*CN)(?=.*香港)`美国
+custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 广港专线->美国01`[]🇺🇸 广港专线->美国02`(?=.*CN)(?=.*香港)
+custom_proxy_group=🎯 全球直连`select`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
+custom_proxy_group=🇺🇸 广港专线->美国01`relay`(?=.*CN)(?=.*香港02)`美国1号
+custom_proxy_group=🇺🇸 广港专线->美国02`relay`(?=.*CN)(?=.*香港03)`美国1号
+
+clash_use_new_field_name=true
+rename_node=1Gbps Netflix HBO TVB@
+rename_node=中国-香港 IEPL Equinix HK8@中港IEPL专线
+rename_node=中国-香港 IPLC Equinix HK2@中港IPLC专线
+rename_node=1Gbps HBO TVB@
+
+
+
+;世界各国
+emoji=AC,🇦🇨
+emoji=(AR|阿根廷),🇦🇷
+emoji=(奥地利|维也纳),🇦🇹
+emoji=(AU|Australia|Sydney|澳大利亚|悉尼),🇦🇺
+emoji=BE,🇧🇪
+emoji=(BR|Brazil|巴西|圣保罗),🇧🇷
+emoji=(Canada|加拿大|蒙特利尔|温哥华|楓葉|枫叶),🇨🇦
+emoji=(瑞士|苏黎世),🇨🇭
+emoji=(DE|Germany|法兰克福|德),🇩🇪
+emoji=丹麦,🇩🇰
+emoji=ES,🇪🇸
+emoji=EU,🇪🇺
+emoji=(Finland|芬兰|赫尔辛基),🇫🇮
+emoji=(FR|France|法国|巴黎),🇫🇷
+emoji=(?i:UK|England|United.*?Kingdom|英国|[^-]英|伦敦),🇬🇧
+emoji=(Indonesia|印尼|印度尼西亚|雅加达),🇮🇩
+emoji=(Ireland|爱尔兰|都柏林),🇮🇪
+emoji=(India|印度|孟买),🇮🇳
+emoji=(Italy|意大利|米兰),🇮🇹
+emoji=(JP|Japan|日本|东京|大阪|埼玉|[^-]日),🇯🇵
+emoji=(KP|朝鲜),🇰🇵
+emoji=(KR|Korea|KOR|首尔|韩|韓),🇰🇷
+emoji=(MY|Malaysia|马来西亚),🇲🇾
+emoji=(NL|Netherlands|荷兰|阿姆斯特丹),🇳🇱
+emoji=(PH|Philippines|菲律宾),🇵🇭
+emoji=(RO|罗马尼亚),🇷🇴
+emoji=(RU|Russia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄),🇷🇺
+emoji=(沙特|迪拜),🇸🇦
+emoji=(SE|Sweden),🇸🇪
+emoji=(SG|Singapore|新加坡|狮城|[^-]新),🇸🇬
+emoji=(TH|Thailand|泰国|曼谷),🇹🇭
+emoji=(TR|Turkey|土耳其|伊斯坦布尔),🇹🇷
+emoji=(?i:US|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥),🇺🇸
+emoji=(VN|越南),🇻🇳
+emoji=(ZA|南非),🇿🇦
+
+;中国
+emoji=(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港),🇭🇰
+emoji=(MO|Macao|澳门|CTM),🇲🇴
+emoji=(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET),🇹🇼
+emoji=(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|湖北|徐州|青岛|宁波|珠海|镇江|成都|back),🇨🇳

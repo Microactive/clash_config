@@ -21,12 +21,12 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组 
-custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`Hong Kong`中港IEPL专线`香港`台湾`Taiwan`新加坡`Singapore`日本`Japan`美国`[]🎯 全球直连
-custom_proxy_group=🚀 故障转移`fallback`Hong Kong`🇭🇰 香港01`🇭🇰 香港02`🇭🇰 香港03`🇭🇰 香港04`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`600
+custom_proxy_group=👨🏻‍💻 节点选择`select`[]🚀 故障转移`HKG`Hong Kong`中港IEPL专线`香港`台湾`Taiwan`新加坡`Singapore`日本`Japan`美国`[]🎯 全球直连
+custom_proxy_group=🚀 故障转移`fallback`HKG`Hong Kong`🇭🇰 香港01`🇭🇰 香港02`🇭🇰 香港03`🇭🇰 香港04`(?=.*CN)(?=.*香港)`http://www.gstatic.com/generate_204`600
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=🛑 地区限制`select`[]👨🏻‍💻 节点选择`香港`美国
-custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 深港专线->美国01`[]🇺🇸 深港专线->美国02`香港
+custom_proxy_group=🛑 地区限制`select`[]👨🏻‍💻 节点选择`HKG`香港`美国
+custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 深港专线->美国01`[]🇺🇸 深港专线->美国02`HKG`香港
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🇺🇸 深港专线->美国01`relay`香港01`美国1号

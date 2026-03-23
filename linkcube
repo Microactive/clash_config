@@ -2,7 +2,6 @@
 ;不要随意改变关键字，否则会导致出错
 ;自定义规则
 surge_ruleset=🛑 地区限制,https://raw.githubusercontent.com/Microactive/clash_config/master/googleplay.list
-surge_ruleset=🛑 特殊网站,https://raw.githubusercontent.com/Microactive/clash_config/master/ban_website.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/Microactive/clash_config/master/custom_not_proxy.list
 surge_ruleset=📺 国外影视,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 surge_ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
@@ -26,11 +25,8 @@ custom_proxy_group=🚀 故障转移`fallback`HKG`Hong Kong`🇭🇰 香港01`�
 custom_proxy_group=📺 国外影视`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=Ⓜ️ 微软服务`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
 custom_proxy_group=🛑 地区限制`select`[]👨🏻‍💻 节点选择`HKG`香港`美国
-custom_proxy_group=🛑 特殊网站`select`[]🇺🇸 深港专线->美国01`[]🇺🇸 深港专线->美国02`HKG`香港
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]👨🏻‍💻 节点选择`[]🎯 全球直连
-custom_proxy_group=🇺🇸 深港专线->美国01`relay`香港01`美国1号
-custom_proxy_group=🇺🇸 深港专线->美国02`relay`香港02`美国1号
 
 clash_use_new_field_name=true
 rename_node=1Gbps Netflix HBO TVB@
